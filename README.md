@@ -3,6 +3,12 @@
 A simple prometheus exporter for gathering Kafka consumer group info
 from [burrow](https://github.com/linkedin/Burrow).
 
+Only works with latest version of Burrow (v3 Restful API).
+
+## Build Binary
+Requires Golang setup
+
+go get -d && go build burrow-exporter.go
 
 ## Run with Docker
 

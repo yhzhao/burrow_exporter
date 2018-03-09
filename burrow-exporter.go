@@ -13,7 +13,7 @@ import (
 
 	"strings"
 
-	"github.com/jirwin/burrow_exporter/burrow_exporter"
+	"github.com/yhzhao/burrow_exporter/burrow_exporter"
 )
 
 var Version = "0.0.3"
